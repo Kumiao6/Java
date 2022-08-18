@@ -16,14 +16,20 @@ public class Main {
 
     @Test
     public void test(){
-        Student student = null;
+        Student student = new Student();
 
 
         if (Objects.isNull(student)) {
             System.out.println("为空");
+
+            System.out.println(student);
         }
+        System.out.println(student);
+    }
 
 
+    @Test
+    public void test2(){
 
     }
 
@@ -34,5 +40,7 @@ public class Main {
 class Student{
     private String name;
     private String email;
+
+
 
 }
